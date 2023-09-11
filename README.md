@@ -18,7 +18,7 @@ The following exercises are part of the repository:
 
 * **Exercise 2 (`exercise_2`) - Files manipulation & globbing**: In this exercise, students are asked to:
     * Use the `tree` command to visualize the whole file structure.
-    * Separate the files that are in the `file_dump` folder to respect the other folders patterns (using mv and globbing) 
+    * Separate the files that are in the `landing_area` folder to respect the other folders patterns (using mv and globbing) 
 
 * **Exercise 3 (`exercise_3`) - Redirection, pipes and commands (1)**: In this exercise, students are asked to:
     * Run the `ls –al /bin` which will return all the programs in the image binaries folder.
