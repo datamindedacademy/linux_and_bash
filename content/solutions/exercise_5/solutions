@@ -1,0 +1,11 @@
+2)
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=20' | jq '.[].commit.tree.url'
+
+3)
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=20' | jq '.[] | {commit_tree_url: .commit.tree.url, author_name: .commit.author.name, message: .commit.message, verified: .commit.verification.verified, parents: [.parents[].html_url]}' > commit_summary.json
+
+4)
+cat weather.json | jq '. | {latitude: .lat, longitude: .lon, current_weather_description: .current.weather[].description, hourly_temps: [.hourly[].temp]}'
+
+5)
+cat weather.json | jq '.hourly[].weather[].description' | sort | uniq -c | sort -rn | head -1

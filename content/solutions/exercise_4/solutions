@@ -1,0 +1,17 @@
+2)
+cat mlb_players.csv | awk -F,  '{if ($0 ~ "Jose.*") {print $0}}'
+
+3)
+cat mlb_players.csv | awk -F,  '{if ($0 ~ "Jose.*") {print $1 $2 $6}}'
+
+4)
+cat mlb_players.csv | awk -F,  '{if (($6 > 27) && ($0 ~ "Jose.*")) {print $1 $2 $6}}'
+
+5)
+cat mlb_players.csv | awk -F,  '{if (($6 > 27) && ($0 ~ "Jose.*")) {print $1 $2 $6}}' > results
+
+6)
+cat mlb_players.csv | awk -F,  '{if (($6 > 27) && ($0 ~ "Jose.*")) {print $1 $2 $6}}' | wc -l
+
+7)
+cat mlb_players.csv | awk -F,  '{if (($6 > 27) && ($0 ~ "Jose.*")) {print $1 $2 $6; sum+=$6; rows+=1}} END {print "Average age of players named Jose that are older than 27: " sum/rows}'
