@@ -4,5 +4,6 @@ checkoutLocation: '.'
 tasks:
   - name: Clean root and grab useful exercises.
     before: |
-      rm -rfv ./{*,.*}
+      rm -rfv ./exercise* ./.git ./content
       sudo mv /home/gitpod/linux-exercises/* .
+      clear
