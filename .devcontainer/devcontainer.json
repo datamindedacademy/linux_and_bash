@@ -1,0 +1,11 @@
+{
+  "name": "linux_and_bash",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "postStartCommand": ".devcontainer/scripts/start.sh",
+  "remoteUser": "vscode",
+  "containerUser": "vscode",
+  "workspaceFolder": "/workspace/linux_and_bash",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/linux_and_bash,type=bind"
+}

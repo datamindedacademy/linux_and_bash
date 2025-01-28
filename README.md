@@ -1,7 +1,10 @@
 # Data Minded Academy - Introduction to Linux & Bash
 ## Exercises Repository
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/datamindedacademy/linux_and_bash)
+# DataFrame of Mind with Polars and PySpark
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/datamindedacademy/linux_and_bash)
+
 
 This repository is hosting the exercises provided to students in the context of the `Introduction to Linux & Bash` course of the Data Minded Academy.
 
@@ -76,9 +79,9 @@ The following exercises are part of the repository:
 
 ## 2. How-to run
 
-This exercise workshop can be run directly on Gitpod. You just need to click the button below.
+This exercise workshop can be run directly on GitHub Codespaces. You just need to click the button below.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/datamindedacademy/linux_and_bash)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/datamindedacademy/linux_and_bash)
 
 
 ## 3. Notes
