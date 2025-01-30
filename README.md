@@ -1,8 +1,6 @@
 # Data Minded Academy - Introduction to Linux & Bash
 ## Exercises Repository
 
-# DataFrame of Mind with Polars and PySpark
-
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/datamindedacademy/linux_and_bash)
 
 
